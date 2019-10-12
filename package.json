@@ -1,0 +1,34 @@
+{
+  "name": "webpack-smart-delete-files",
+  "version": "1.0.0",
+  "description": "Smart delete unused files and folders.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npm run clean && webpack",
+    "clean": "rm -rf ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huyanan/webpack-smart-delete-files.git"
+  },
+  "author": "HuYanan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huyanan/webpack-smart-delete-files/issues"
+  },
+  "homepage": "https://github.com/huyanan/webpack-smart-delete-files#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "chalk": "^2.4.2",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "style-loader": "^1.0.0",
+    "unused-files-webpack-plugin": "^3.4.0",
+    "url-loader": "^2.2.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}

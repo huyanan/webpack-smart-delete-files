@@ -59,3 +59,15 @@ typings/
 
 # next.js build output
 .next
+
+.DS_Store
+
+dist
+
+output
+
+compilation.json
+
+manifesto.json
+
+stats.json
